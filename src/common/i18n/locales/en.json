@@ -1,0 +1,45 @@
+{
+  "ui": {
+    "card": {
+      "birth_year": "Birth year: {{ date }}"
+    },
+    "gender_fans": {
+      "female": "Female Fans",
+      "male": "Male Fans",
+      "others": "Others Fans"
+    },
+    "list": {
+      "empty": "Oh... Data is empty",
+      "load_more": "Load more",
+      "loaded": "Wow! All data is currently loaded",
+      "search": {
+        "title": "Oh! No results found for ",
+        "description": "\nPlease try another search or check the spelling"
+      },
+      "clear_fans": "Clear fans"
+    },
+    "loading": {
+      "default": "Loading..."
+    },
+    "navigation": {
+      "characters": "Characters",
+      "favourites": "Favourites"
+    },
+    "placeholder": { "search": "Search character" }
+  },
+  "screens": {
+    "character_info": {
+      "short_about": "Gender: {{ gender }}\nBirth year: {{ date }}",
+      "appearances": "Appearances",
+      "film": "Star Wars: {{ film }} (Episode {{ episode }})",
+      "appearance": "Appearance",
+      "appearance_about": "Eye color: {{ eye }}\nHair color: {{ hair }}\nSkin color: {{ skin }}",
+      "dimensions": "Dimensions",
+      "dimensions_about": "Height: {{ height }}cm\nMass: {{ mass }}kg",
+      "home_world": "Home world",
+      "species": "Species",
+      "starships": "Starships",
+      "vehicle": "Vehicle"
+    }
+  }
+}

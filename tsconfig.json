@@ -1,0 +1,40 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "lib": ["ESNext"],
+    "jsx": "react-native",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "ignoreDeprecations": "5.0",
+    "importsNotUsedAsValues": "error",
+    "noPropertyAccessFromIndexSignature": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["node"],
+    "baseUrl": "src",
+    "paths": {
+      "@api": ["common/api/index"],
+      "@api/*": ["common/api/*"],
+      "@assets/*": ["assets/*"],
+      "@hooks": ["common/hooks/index"],
+      "@hooks/*": ["common/hooks/*"],
+      "@i18n": ["common/i18n/index"],
+      "@models/*": ["common/models/*"],
+      "@screens": ["screens/index"],
+      "@screens/*": ["screens/*"],
+      "@stores": ["common/stores/index"],
+      "@stores/*": ["common/stores/*"],
+      "@tools/*": ["common/tools/*"],
+      "@uikit/*": ["uikit/*"]
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js"]
+}
